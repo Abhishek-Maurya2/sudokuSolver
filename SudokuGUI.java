@@ -44,6 +44,7 @@ public class SudokuGUI extends JPanel {
         frame.pack();
         frame.setVisible(true);
     }
+    
 
     public void updateBoard(int[][] board) {
         this.board = board;
